@@ -27,7 +27,8 @@
                     colors: {
                         clifford: '#da373d',
                         'hockey-primary': '#FF4240',
-
+                        'hockey-secondary': '#131318',
+                        'content-color': '#13131899',
                     }
                 }
             }
@@ -36,7 +37,7 @@
 </head>
 
 <body>
-    <header class="container mx-auto font-manrope">
+    <header class="container mx-auto font-manrope px-3 lg:px-20">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -76,8 +77,8 @@
             </div>
         </nav>
         <!-- slider -->
-        <div class="relative">
-            <div class="carousel w-full lg:h-[550px]">
+        <div class="relative my-5 lg:my-12">
+            <div class="carousel w-full h-48 lg:h-[550px]">
                 <div id="slide1" class="carousel-item relative w-full lg:z-10">
                     <img src="Images/1.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -113,8 +114,77 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="container mx-auto font-manrope px-3 lg:px-20">
 
+        <!-- professional hockey section-->
+        <section class="lg:my-24">
+            <hr class="bg-[#13131833]">
+            <div class="text-center space-y-3 py-5">
+                <h1 class="text-hockey-secondary text-4xl font-extrabold">Professional Hockeys Club</h1>
+                <p class="text-content-color text-[16px] font-medium lg:px-60">Dit amet consectetur.
+                    Condimentum
+                    dignissim
+                    adipiscing aliquam turpis
+                    placerat
+                    dolor. Purus urna in
+                    sit
+                    nullam proin.</p>
+            </div>
+            <hr class="bg-[#13131833]">
+            <!-- radial progress -->
+            <div class="grid p-5 lg:p-0 gap-5 lg:gap-1 grid-cols-1 lg:grid-cols-4 lg:my-8">
+                <!-- 1 -->
+                <div class="flex flex-col gap-3 justify-center items-center">
+                    <div class="radial-progress text-red-500 text-xl font-extrabold" style="--value:87;"
+                        role="progressbar">
+                        <span class="text-hockey-secondary ">87%</span>
+                    </div>
+                    <div class="text-center space-y-3">
+                        <h4 class="text-hockey-secondary text-xl font-semibold">Prayer Facility</h4>
+                        <p class="text-content-color text-[16px]">Amet consectetur. Condimentum dignissim adipiscing .
+                        </p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="flex flex-col gap-3 justify-center items-center">
+                    <div class="radial-progress text-green-500 text-xl font-extrabold" style="--value:95;"
+                        role="progressbar">
+                        <span class="text-hockey-secondary ">95%</span>
+                    </div>
+                    <div class="text-center space-y-3">
+                        <h4 class="text-hockey-secondary text-xl font-semibold">Prayer Facility</h4>
+                        <p class="text-content-color text-[16px]">Amet consectetur. Condimentum dignissim adipiscing .
+                        </p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="flex flex-col gap-3 justify-center items-center">
+                    <div class="radial-progress text-yellow-500 text-xl font-extrabold" style="--value:90;"
+                        role="progressbar">
+                        <span class="text-hockey-secondary ">90%</span>
+                    </div>
+                    <div class="text-center space-y-3">
+                        <h4 class="text-hockey-secondary text-xl font-semibold">Prayer Facility</h4>
+                        <p class="text-content-color text-[16px]">Amet consectetur. Condimentum dignissim adipiscing .
+                        </p>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="flex flex-col gap-3 justify-center items-center">
+                    <div class="radial-progress text-blue-500 text-xl font-extrabold" style="--value:80;"
+                        role="progressbar">
+                        <span class="text-hockey-secondary ">80%</span>
+                    </div>
+                    <div class="text-center space-y-3">
+                        <h4 class="text-hockey-secondary text-xl font-semibold">Prayer Facility</h4>
+                        <p class="text-content-color text-[16px]">Amet consectetur. Condimentum dignissim adipiscing .
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="bg-[#13131833]">
+        </section>
     </main>
     <footer>
 
